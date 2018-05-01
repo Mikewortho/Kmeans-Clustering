@@ -262,11 +262,11 @@ if __name__ == '__main__':
     fLabels = labelMaker(fr,an,coun,vegs)
     fVects = featureMaker(fr,an,coun,vegs)
 
-    #L2 normalisation of feature vetors and extracting arrays from the sparse matrix
+    #L2 normalisation of feature vetors
     l2 = l2feats(fVects)
     
     
-    #Creating lists to hold Marco-Averaged Recall, Precision and F-score for all cluster the range(2,21)
+    #Creating lists to hold Marco-Averaged Recall, Precision and F-score for all cluster the range(2,11)
     macRecall = []
     macPrecision = []
     macF_Score = []
